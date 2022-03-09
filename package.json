@@ -1,0 +1,25 @@
+{
+  "name": "maven-build-action",
+  "version": "1.0.0",
+  "description": "Maven build action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnuprabhakar7/maven-build-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnuprabhakar7/maven-build-action/issues"
+  },
+  "homepage": "https://github.com/vishnuprabhakar7/maven-build-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "glob": "^7.2.0",
+    "node-maven-api": "^2.0.2"
+  }
+}
